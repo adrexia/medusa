@@ -12,7 +12,7 @@ class Page extends SiteTree {
 	public function getCurrentRegistration(){
 		$member = Member::currentUser();
 		if(!$member) return false;
-		
+
 		$reg = Registration::get()->filter(array(
 			'MemberID' => $member->ID,
 			'ParentID' => $this->getCurrentEvent()->ID,
@@ -88,7 +88,7 @@ class Page_Controller extends ContentController {
 		);
 	}
 
-	public function CMSAccess() { 
+	public function CMSAccess() {
 		return Permission::check('ADMIN') || Permission::check('CMS_ACCESS_LeftAndMain');
 	}
 
