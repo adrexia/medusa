@@ -58,13 +58,10 @@ class RegistrationPage_ControllerExtension extends DataExtension {
 			'What gender would you prefer to play?'
 		), 'EmergencyContact');
 
-		$fields->dataFieldByName('Accommodation')
-		->setRightTitle('Limited shared area or tenting available.');
+		$accom = $fields->dataFieldByName('Accommodation');
 
-
-
-
-
-
+		if($accom) {
+			$accom->setRightTitle('Limited shared area or tenting available.');
+		}
 	}
 }

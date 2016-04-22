@@ -5,8 +5,8 @@
 			<div class="content">
 				$Content
 				<div class="ptl">
-					<% if userGameRegOpen %>
-					<% if Form %>
+					<% if $userGameRegOpen %>
+						<% if $Form %>
 							$GameLiveContent
 						<% end_if %>
 					<div class="key">
