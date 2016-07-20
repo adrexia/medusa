@@ -1,7 +1,7 @@
 <footer class="footer" role="contentinfo">
 	<div class="row">
 		<div class="columns twelve">
-			<p class="right">&copy; NZLarps 2015 | Graphics by Judit Klein. Web development by Paddywhack Productions | Powered by <a href="http://silverstripe.org">SilverStripe</a></p>
+			<p class="right">&copy; NZLarps 2016</p>
 
 		</div>
 	</div>
